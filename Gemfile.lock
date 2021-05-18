@@ -145,10 +145,9 @@ GEM
     pry-byebug (3.4.2)
       byebug (~> 9.0)
       pry (~> 0.10)
-    pry-nav (0.2.4)
-      pry (>= 0.9.10, < 0.11.0)
     public_suffix (3.0.0)
-    puma (3.9.1)
+    puma (4.3.8)
+      nio4r (~> 2.0)
     rack (2.0.3)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -270,8 +269,7 @@ DEPENDENCIES
   poltergeist (~> 1.14.0)
   pry
   pry-byebug
-  pry-nav
-  puma (~> 3.7)
+  puma (~> 4.3)
   rails (~> 5.1.2)
   rspec-rails (~> 3.0)
   sass-rails (~> 5.0)
